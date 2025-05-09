@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .aboutpage {
+      min-height: 80vh;
+      padding: 20px 0;
+    }
+
+    .aboutpage h4 {
+      text-align: center;
+      font-size: 40px;
+      margin-top: 20px;
+    }
+
+    .aboutcon {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .abouts {
+      display: flex;
+      width: 95%;
+      height: 60vh;
+      margin: 20px 0;
+      justify-content: center;
+    }
+
+    .aboutimg,
+    .abouttext {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .aboutimg img {
+      height: 80%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .abouttext div {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .abouttext h3 {
+      font-size: 30px;
+      margin-bottom: 15px;
+      text-transform: capitalize;
+    }
+
+    .abouttext p {
+      font-size: 18px;
+      line-height: 1.8;
+    }
+
+    @media (max-width: 768px) {
+      .abouts {
+        flex-direction: column;
+        height: auto;
+      }
+
+      .aboutimg,
+      .abouttext {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+      }
+
+      .abouttext div {
+        width: 95%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="aboutpage">
+    <h4>About Us</h4>
+    <div class="aboutcon">
+      <div class="about1 abouts">
+        <div class="aboutimg">
+          <img src="https://media.gettyimages.com/id/1425221653/photo/vision-proud-and-success-business-people-portrait-in-workplace-or-office-building-with-smile.jpg?s=612x612&w=gi&k=20&c=Mi-Y-ujHzY50hyT9YPfg_BVwKIEwsoLrHdxqqczBGXA=" alt="E-commerce Mission" />
+        </div>
+        <div class="abouttext">
+          <div>
+            <h3>E-commerce Mission</h3>
+            <p>
+              Our mission is to provide a seamless and efficient shopping experience. 
+              We have redefined the standard of online retail by combining ease of use with innovative design and reliable service.
+              With over five centuries of evolution, the e-commerce industry continues to shape the way consumers interact with businesses.
+              We believe in offering readable, engaging, and meaningful content that enhances the user journey and builds lasting trust.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="about2 abouts">
+        <div class="abouttext">
+          <div>
+            <h3>Our Vision</h3>
+            <p>
+              Our vision is to be a leading force in e-commerce innovation. 
+              We aim to create a space where technology and customer satisfaction meet seamlessly.
+              Through continuous improvement and a customer-first mindset, we strive to redefine convenience and trust in digital shopping.
+              Our goal is to deliver a platform that is informative, intuitive, and enjoyable for every user.
+            </p>
+          </div>
+        </div>
+        <div class="aboutimg">
+          <img src="https://images.pexels.com/photos/37646/new-york-skyline-new-york-city-city-37646.jpeg?cs=srgb&dl=pexels-pixabay-37646.jpg&fm=jpg" alt="Our Vision" />
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
